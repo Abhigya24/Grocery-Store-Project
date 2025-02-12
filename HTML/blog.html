@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Blog</title>
+    <style>
+        * {
+
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0px;
+            margin: 0px;
+
+
+        }
+
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #035c6b;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+	font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 10px;
+}
+
+        body {
+            margin: 0;
+        }
+
+       
+
+       
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            /*The nav a is for the navigation bar that contains the a tag which has the link */
+            border-radius: 5px;
+            padding: 2px;
+            background-color: rgba(255, 255, 255, .3);
+            transition: 0.5s;
+
+
+        }
+
+        .flex2 {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding: 10px;
+
+        }
+
+        .table-grocery {
+            padding-top: 10px;
+            width: 100%;
+            height: 60px;
+        }
+
+        .current {
+            background-color: rgba(255, 255, 255, .3);
+            border-radius: 5px;
+            padding: 5px;
+
+        }
+
+        .tab {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../IMAGES/logo ai (1).png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../HTML/page1.html">Home</a></li>
+                <li><a href="../HTML/product.html">Product</a></li>
+                <li><a href="../HTML/blog.html">Blog</a></li>
+                <li><a href="../HTML/research.html">Research</a></li>
+                <li><a href="../HTML/aboutus.html">About Us</a></li>
+                <li><a href="../HTML/random.html">Login/Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+        <nav class=" nav main-nav">
+            <div class="flex2">
+                <table class="table-grocery">
+                    <tr style="font-size: 22px;">
+                        <td> <a href="../HTML/page1.html" class="current tab">Home</a></td> <!-- in lines css-->
+                        <td> <a href="productofficial.html" class="tab">Products</a></td> <!-- in lines css-->
+                        <td> <a href="../HTML/blog.html" class="tab">Blog</a></td> <!-- in lines css-->
+                        <td> <a href="research.html" class="tab">Research</a></td> <!-- in lines css-->
+                        <td> <a href="../HTML/aboutus.html" class="tab">About us</a></td> <!-- in lines css-->
+                        <td> <a href="../HTML/random.html" class="tab">Login/Sign-up</a></td> <!-- in lines css-->
+                    </tr>
+
+                </table>
+            </div>
+        </nav>
+    </header> 
+    <link rel="stylesheet" href="../CSS/blog.css">
+    <h1 class="styled-title">Blog</h1>
+    <br>
+
+    <style>
+        p {
+            font-size: 20px;
+        }
+
+        .Intro {
+            text-align: justify;
+
+        }
+
+        .Positive {
+            text-align: justify;
+        }
+    </style>
+    <style>
+        p1 {
+            font-size: 25px;
+        }
+    </style>
+    <link rel="stylesheet" href="../CSS/blog.css">
+    <div class="container">
+        <div class="text">
+            <p1>
+                <h2>Introduction</h2>
+            </p1><br>
+            <p class="Intro"> Technology can be defined as the knowledge which is used creatively and how it is applied
+                to organize tasks which involves people and machines that meet sustainable goals.
+                Since ancient times, technology has been around. Based to this concept, early humans discoveries of fire
+                and stone uses represent technological advancements. These days, everything from huge aircraft to tiny
+                semiconductors found in modern computer chips is seen as a technological advancement.</p>
+        </div>
+        <div class="image">
+            <img src="../IMAGES/phone.jpg">
+        </div>
+    </div>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .text {
+            flex: 1;
+            padding-left: 20px;
+            /* Adjust padding for spacing */
+        }
+
+        .image {
+            flex: 1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .text p {
+            text-align: justify;
+        }
+
+        .text h2 {
+            text-align: left;
+        }
+
+        
+    </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="image">
+                <img src="../IMAGES/technology-trend-freepik-1647963838.jpg" >
+            </div>
+            <div class="text">
+                <p1>
+                    <h2>Positive Impact</h2>
+                </p1>
+                <p class="Positive"> Now we are no longer bound by physical limitations, and we have a wide range of
+                    online grocery
+                    stores to
+                    choose from. Major food retailers are trying to attract individual customers by offering competitive
+                    offers, discounts,
+                    loyalty cards, and convenient delivery options. Convenience and efficiency are also determined by
+                    the user experience
+                    and interaction with each online grocery store, however some buyers just consider pricing and
+                    shipping expenses.</p>
+            </div>
+        </div>
+        <h2>1.Home Delivery</h2>
+        <br>
+        <p>One of the major impacts of thechnology is home delivery service.The customers uses a digital platform in
+            order to receive
+            home delivery service. The retailer receives the order and after that, delivery agents receive this order by
+            digital methods.
+            In order to locate their order and communicate with the shop, customers typically use smartphone apps.</P>
+        <br>
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <div class="container">
+            <div class="text">
+                <h2>2.Artificial Intelligence</h2>
+                <br>
+                <p>Artificial intelligence-based technology has also affected grocery stores all over the world. In
+                    order to save clients time during
+                    the checkout process, AI technology is employed to detect the products that they place in their
+                    carts. After reviewing the product
+                    information, this system bills the consumer according to the pricing of the product.</p>
+            </div>
+            <div class="image">
+                <img src="../IMAGES/AI.jpg">
+            </div>
+        </div>
+        <h2>
+            <h2>3.Cheaper Price</h2>
+            <br>
+        </h2>
+        <p>It is one of of the benefits of technology asOnline stores are very competitive and want to maintain their
+            customer base.
+            To achieve this, they usually sell their products at lower prices than offline stores.Vouchers, festival
+            discount,coupons,
+            are grnerally very helpful for the customers.</p><br>
+        <h2>
+            <h2>4.Variety</h2>
+            <br>
+        </h2>
+        <p>Online stores provide a very wide range of products than the offline markets.It provides variety of options
+            to the consumers.
+            The consumer can make better product choice as it offers multiple types of products at one place.
+        <p>
+            <br><br><br>
+        <h1 style="text-align: center;">Uses of Technology in Business </h1>
+
+        <link rel="stylesheet" href="../CSS/blog.css">
+        <div class="container">
+            <ul class="justified-list">
+                <p> 1. It helps you inorder to reduce your in-store losses and theft.</p>
+                <p> 2. It helps in automation of manual tasks which used to be done in spreadsheets.</p>
+                <p> 3. It helps in eleminating the potential inventory and pricing errors.</p>
+                <p> 4. It gives you control to make changes in prices and increase your competitiveness in the market
+                    and also increase your profit through it.</p>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="text">
+                <p1>
+                    <h2>Conclusion on impact of technology</h2>
+                </p1><br>
+                <p>In conclusion, the development of technology has changed the grocery shopping experience and is
+                    beneficial for both customers and companies.
+                    The grocery sector has advanced significantly, from the efficiency of AI-powered checkout systems to
+                    the comfort of home delivery services made
+                    possible by digital platforms. More options and affordability have been made available to consumers
+                    by the availability of lower costs, a wide
+                    range of products, and special offers. Technology is now a tool that organizations can use to cut
+                    costs, automate processes, reduce errors, and
+                    become more competitive in the market. All things considered, the experience of grocery shopping has
+                    changed due to the incorporation of technology,
+                    becoming more profitable, efficient, and convenient for both consumer and for business as well.</p>
+            </div>
+            <div class="image">
+                <img src="../IMAGES/child.jpg">
+            </div>
+        </div>
+        <link rel="stylesheet" href="../CSS/blog.css">
+
+
+        <footer>
+            <p style="font-size: 25px"><b> Star Grocery </b></p>
+            <p> Email: stargrocery@gmail.com </p>
+            <p> Address: Kamal Pokhari </p>
+            <p> Copyright &copy; 2024 Design by Star. All rights reserved.</p>
+        </footer>
+
+    </body>
+
+</html>

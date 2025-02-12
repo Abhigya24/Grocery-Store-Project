@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/feedback.css">
+    <style>
+        
+    body{
+         background-image: url("../IMAGES/image.jpg");
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-blend-mode: lighten;
+         width: 100vh;
+         height: 100vh;
+        }
+        </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <h1>Give your Feedback</h1>
+            <div class="fullName">
+                <input type="text" placeholder="Full name" id="name">
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Email address" id="email">
+            </div>
+            <textarea cols="15" rows="5" placeholder="Enter your opinions here...." id="text"></textarea>
+            <button type="button" id="submitbtn">Send</button>
+        </form>
+    </div>
+    <script>
+        var submitbtn = document.getElementById("submitbtn");
+        var fullName = document.getElementById("name");
+        var emailAddress = document.getElementById("email");
+        var feedback = document.getElementById("text");
+        submitbtn.addEventListener('click', function () {
+            if (fullName.value == "" || emailAddress.value == "" || feedback.value == "") {
+                alert("Please fill up the form completely");
+            } else {
+                alert("Thank you for your feedback");
+            }
+        });
+    </script>
+</body>
+
+</html>
+

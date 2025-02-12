@@ -1,0 +1,89 @@
+.styled-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: #333; /* dark gray color */
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* adds a shadow effect */
+    margin-top: 50px; /* adjusts the top margin */
+  }
+  
+  /* .styled-title {
+      font-family: Arial, sans-serif;
+      font-size: 36px;
+      color: #333; /* dark gray color */
+      .blog{
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* adds a shadow effect */
+      margin-top: 50px; /* adjusts the top margin */
+      }
+     */
+  .container {
+      display: flex;
+      align-items: center; /* Align items vertically in the center */
+      
+  }
+  
+  .text {
+      flex: 1; /* Take as much space as possible */
+      padding: 2px; /* Add some space around the text */
+  }
+  
+  .image {
+      flex: 1; /* Take as much space as possible */
+      text-align: center; /* Center the image horizontally */
+  }
+  
+  img {
+      max-width: 80%; /* Ensure the image doesn't exceed its container */
+      height: auto; /* Maintain aspect ratio */
+  }
+  .container {
+      width: 100%;
+      text-align: center; /* Centers the text horizontally */
+  }
+  .container {
+      width: 100%;
+      text-align: center; /* Centers the text horizontally */
+  }
+  .container {
+      width: 100%;
+      text-align: center; /* Centers the text horizontally */
+  }
+  
+  .justified-list {
+      text-align: justify; /* Justifies the text */
+      width: 40%; /* Adjust the width as needed */
+      margin: 0 auto; /* Centering the list */
+      padding: 5px; /* Removes default padding */
+  }
+  
+  .justified-list li {
+      list-style: none; /* Removes default bullets */
+      position: relative; /* Position relative for pseudo element */
+      padding-left: 0.5em; /* Add space for the bullet */
+  }
+  
+  .justified-list li:before {
+      content: "\2022"; /* Unicode bullet character */
+      position: absolute;
+      left: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  
+  }
+  footer {
+      background-color: #035c6b;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+  }
+  
+  
+  
+  

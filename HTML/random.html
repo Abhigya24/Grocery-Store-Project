@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login And Signup</title>
+		<meta name="Login And Signup" content="Login And Signup" />
+		<meta name="keywords" content="HTML" />
+		<meta name="Abhigya Singh Basnet" content="login"/>
+		<link rel="stylesheet" type="text/css" href="../CSS/random.css">
+
+</head>
+<style>
+
+ .table-grocery{
+	 
+	 width: 100%;
+	 height: 60px;
+	 padding-top: 10px;
+ }
+ .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Adjust alignment of navigation links */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px; /* Add padding to create space between navigation links */
+}
+
+.nav a:hover {
+    border-radius: 5px;
+    padding: 2px 15px; /* Adjust padding on hover */
+    background-color: rgba(255, 255, 255, .3);
+    transition: 0.5s;
+}
+
+.main-header
+    {
+        position: relative;
+    height: 90px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+	 background-color:#07515f ;
+	 background-size: cover;
+    }
+ 
+ .logo{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+	 width:200px;
+	 height: 90px;
+	 
+	 box-shadow: none;
+	 border-radius: 1px;
+ }
+.current{
+	background-color:  rgba(255, 255, 255, .3);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+</style>
+
+		<body>
+			<header>
+				<div class="logo">
+					<img src="../IMAGES/logo ai (1).png" alt="Star Groceery">
+				</div>
+				<nav>
+					<ul>
+						<li><a href="../HTML/page1.html">Home</a></li>
+						<li><a href="#">Product</a></li>
+						<li><a href="#">Login/Signup</a></li>
+					</ul>
+				</nav>
+			</header>
+
+
+			<div class="log">
+				<div class="box">
+					<div class="but">
+						<div id="boot"></div>
+							<button type="button" class="toggle-but" onclick="login()">LogIn</button> <!--used buttons to help toggle the login and registration pages-->
+							<button type="button" class="toggle-but" onclick="Register()">Register</button>
+						</div>
+						          <!--form for login-->
+						<div class="login" id="login">
+							<form name="form" action="login.php" method="POST" onsubmit="return check()">
+								<input type="text" id="name" name="Username" placeholder="Username" class="box-type" required><br>
+								<input type="password" id="name" name="Password" placeholder="Password" class="box-type" required><br>
+								<input type="checkbox" id="remember" name="Remember" value="login" class="check">
+								<label for="forpeople">Remember me</label><br>
+								<button class="btn" type="submit">Log in</button>
+							</form>
+							
+    					</div>
+    					<!--form or registeration-->
+    					
+    					<div class="login" id="Register">
+    						<form name="form" action="register.php" method="POST" onsubmit="return check()">
+								<input type="text" id="username" name="Username" placeholder="Username" class="box-type" required><br>
+								<input type="email" id="email" name="Email" placeholder="Email" class="box-type" required><br>
+								<input type="password" id="password" name="Password" placeholder="Password" class="box-type" required><br>
+								<input type="checkbox" id="terms" name="Remember" value="terms" class="check" required>
+								<label for="terms">I accept the terms & conditions</label><br>
+								<center><button class="btn" type="submit">Register</button></center>
+							</form>
+							
+							
+						</div>
+				</div>
+				<footer>
+					<p style="font-size: 25px"><b> Star Grocery </b></p>
+					<p> Email: stargrocery@gmail.com </p>
+					<p> Address: paknajol </p>
+					<p> Copyright &copy; 2024 Design by Star. All rights reserved.</p>
+				</footer>
+			
+			
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+	<script type="text/javascript" src="../JAVASCRIPT/random.js"></script> <!--javascript used for the validation and changing for the form-->
+
+</html>

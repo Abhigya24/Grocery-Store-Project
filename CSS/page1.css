@@ -1,0 +1,254 @@
+
+*{
+
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 0px;
+	margin:0px;
+	
+ 
+  }
+  
+  .table-grocery{
+	 
+	 width: 100%;
+	 height: 60px;
+	 padding-top: 10px;
+ }
+ .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Adjust alignment of navigation links */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px; /* Add padding to create space between navigation links */
+}
+
+.nav a:hover {
+    border-radius: 5px;
+    padding: 2px 15px; /* Adjust padding on hover */
+    background-color: rgba(255, 255, 255, .3);
+    transition: 0.5s;
+}
+ 
+.current{
+	background-color:  rgba(255, 255, 255, .3);
+	border-radius: 5px;
+	padding: 5px;
+}
+.flex2{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px;
+}
+ .tab{
+	margin: 30px;
+ }
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #035c6b;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+	font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 10px;
+}
+ .pic
+ {
+	 width:100%;
+	 padding:  20px;
+ }
+ 
+ .slider
+ {
+	 background-image: url(../IMAGES/FINAL\ MAYBE.png);
+	width: 100%;
+	 height: 500px;
+	 
+   padding: 10px 20px;
+ }
+ 
+ .text
+ {
+	 text-align: center;
+	 margin: auto;
+	 font-size: 50px;
+ }
+ 
+ .slides
+ {
+	 max-width:700px;
+	 max-height: 375px;
+	 display: flex;
+	 margin: auto;
+	 text-align: center;
+ }
+ 
+ .topic
+ {
+ 
+	 margin:auto;
+	 text-align: center;
+	 padding: 10px;
+ }
+ 
+ .right 
+{
+	
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: centre;
+  align-items: centre;
+  margin: 10px  0;
+  padding: 10px 20px;  
+}
+
+ .photo
+ {
+	 width: 20%;
+	 margin: 20px;
+	 box-sizing: border-box;
+	 float: wrap;
+	 text-align: center;
+	 border-radius: 10px;
+	 cursor: pointer;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 box-sizing: 0 14px 28px;
+	 background: #f2f2f2;
+ }
+ 
+ .photo:hover 
+ {
+   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+ }
+ 
+ .card-pic {
+    width: 200px;
+    height: 175px;
+    text-align: center;
+    margin: 0 85px; /* Add margin to create a gap between each card */
+    display: inline-block; /* Change to inline-block to allow margin to work */
+}
+ 
+ .price1 
+ {
+   color: grey;
+   font-size: 22px;
+ }
+ 
+ .right button 
+ {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: black;
+   text-align: center;
+   cursor: pointer;
+   width: 200px;
+   font-size: 15px;
+ }
+ 
+ .right button:hover 
+ {
+   opacity: 0.7;
+ }
+ .colo
+{
+	flex: 25%;
+	max-width: 25%;
+	box-sizing: border-box;
+	padding: auto;
+}
+ 
+ .h3
+ {
+	 text-align: center;
+	 font-size: 30px;
+	 margin: 0;
+	 padding-top: 10px;
+ }
+ .wp{
+	 background-image: url(../IMAGES/bottom.png);
+ }
+ .blog{
+	 padding: 40px 0;
+	 color: #434343;
+	 text-align: center;
+ }
+ 
+ 
+ .in
+ {
+	 max-width: 1200px;
+	 margin: auto;
+	 overflow: hidden;
+	 padding: 0 20px;
+ 
+ }
+ .bar{
+	 width: 160px;
+	 height: 5px;
+	 background: #6ab04c;
+	 margin: 26px auto;
+ }
+ 
+ .row
+ {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: centre;
+ }
+ 
+ 
+ 
+ 
+ 
+ .name
+ {
+	 font-size: 20px;
+	 text-transform: uppercase;
+	 margin: 20px 0;
+ }
+ 
+ 
+ footer {
+    background-color: #035c6b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
